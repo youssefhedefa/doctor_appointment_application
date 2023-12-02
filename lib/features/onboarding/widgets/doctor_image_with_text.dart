@@ -12,7 +12,7 @@ class DoctorImageWithText extends StatelessWidget {
       alignment: Alignment.topCenter,
       children: [
         const Image(
-          image: AssetImage(AssetsManager.logoWithLowOpacity),
+          image: AssetImage(AssetsProvider.logoWithLowOpacity),
         ),
         Container(
           foregroundDecoration: BoxDecoration(
@@ -27,7 +27,7 @@ class DoctorImageWithText extends StatelessWidget {
             ),
           ),
           child: const Image(
-            image: AssetImage(AssetsManager.doctorImage),
+            image: AssetImage(AssetsProvider.doctorImage),
           ),
         ),
         Positioned(
